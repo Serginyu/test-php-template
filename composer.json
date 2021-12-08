@@ -1,12 +1,12 @@
 {
-  "name": "softonic/<PACKAGE-ID>",
+  "name": "softonic/test-php-template",
   "type": "library",
-  "description" : "<DESCRIPTION>",
+  "description" : "example test php template",
   "keywords": [],
   "license": "Apache-2.0",
-  "homepage": "https://github.com/softonic/<PACKAGE-ID>",
+  "homepage": "https://github.com/softonic/test-php-template",
   "support": {
-    "issues": "https://github.com/softonic/<PACKAGE-ID>/issues"
+    "issues": "https://github.com/softonic/test-php-template/issues"
   },
   "require": {
     "php": ">=8.0"
@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Softonic\\<NAMESPACE>\\": "src/"
+      "Softonic\\TestPhpTemplate\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Softonic\\<NAMESPACE>\\": "tests/"
+      "Softonic\\TestPhpTemplate\\": "tests/"
     }
   },
   "scripts": {
